@@ -51,6 +51,11 @@
     border: 2px solid #fff;
 }
 
+.hero-connect a{
+    text-decoration: none;
+    color: white;
+
+}
 .hero-resume{
     border: 2px solid #fff;
     padding: 20px 40px;
