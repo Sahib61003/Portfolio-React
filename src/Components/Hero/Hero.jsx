@@ -11,7 +11,7 @@ const Hero = () => {
       <p>I am a student at GGSIPU, pursuing B.Tech in Artificial Intelligence and Machine Learning. I am passionate about AI and I love to automate things around me. I am always curious to learn new things and I am always ready to take on new challenges.</p>
       <div className='hero-action'>
         <div className='hero-connect'>Connect with me</div>
-        <a href={resume} download="Resume.pdf" className='hero-resume'>Download My Resume</a>
+        <a href={resume} download="Resume.pdf" className='hero-resume'> Download My Resume </a>
       </div>
     </div>
   );
