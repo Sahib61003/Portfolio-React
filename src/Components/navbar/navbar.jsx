@@ -3,8 +3,6 @@ import './navbar.css'
 import logo from '../../assets/logo.png'
 import underline from '../../assets/nav_underline.svg'
 
-
-
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
 
