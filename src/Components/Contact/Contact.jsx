@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
@@ -8,6 +8,7 @@ import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 
 const Contact = () => {
+    const [result, setResult] = useState('');
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -57,11 +58,11 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                         <img src={linkedin} alt='' />
-                        <p> https://linkedin.com/in/sahib-preet-singh/ </p>
+                        <a href='https://linkedin.com/in/sahib-preet-singh/'> LinkedIn </a>
                     </div>
                     <div className="contact-detail">
                         <img src={github} alt='' />
-                        <p> https://github.com/Sahib61003 </p>
+                        <a href='https://github.com/Sahib61003'> Github </a>
                     </div>
                 </div>
             </div>

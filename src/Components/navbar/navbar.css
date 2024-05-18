@@ -15,6 +15,11 @@
     cursor:pointer;
 }
 
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
@@ -36,7 +41,8 @@
 .nav-mob-close{
     display:none;
 }
-@media(max-width:768px){
+
+/* @media(max-width:768px){
     .navbar{
         margin: 20px 0px;
     }
@@ -75,4 +81,4 @@
         flex-direction: row;
         gap:20px;
     }
-}
+} */

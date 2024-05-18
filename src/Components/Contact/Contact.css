@@ -67,6 +67,10 @@
     font-weight: 500;
 }
 
+.contact-detail a{
+    text-decoration: none;
+    color: white;
+}
 .contact-right{
     display: flex;
     flex-direction: column;
@@ -120,3 +124,4 @@
     transition: 0.6s;
     transform: scale(1.12);
 }
+
