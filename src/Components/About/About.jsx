@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p> I am Sahib Preet Singh proficient in the field of Data Science, Machine Learning, Deep Learning, Computer Vision, Object Detection, Natural Language Processing and little bit of front end development.</p>
-                        <p> I am always curious to learn new things and I am always ready to take on new challenges. My current CGPA is 9.375 and my rank all over IPU is in top 5. I have done Software Development Internship at Medoc IT Health Pvt Ltd and currently looking for an innternship or full time role. </p>
+                        <p> I am Sahib Preet Singh and I am proficient in the field of Data Science, Machine Learning, Deep Learning, Computer Vision, Object Detection, Natural Language Processing and a little bit of front end development.</p>
+                        <p> I am always ready to take on new challenges. My current CGPA is 9.375 and my rank all over IPU is in top 5. I have done Software Development Internship at Medoc IT Health Pvt Ltd and currently looking for an internship or full time role. </p>
                     </div>
                     <div className="about-skills">
                         <div className='about-skill'> <p>
