@@ -8,13 +8,13 @@ import project6_img from '../assets/project_6.svg'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Data Analysis using Power BI",
+        w_name:"Road Lane Detection Using CV",
         w_img:project1_img,
         w_url: "https://github.com/Sahib61003/CodeClauseInternship_RoadLaneDetection"
     },
     {
         w_no:2,
-        w_name:"Road Lane Detection Using CV",
+        w_name:"Data Analysis using Power BI",
         w_img:project2_img,
         w_url: "https://github.com/Sahib61003/Order_Analysis_Using_PowerBI"
     },
