@@ -1,16 +1,17 @@
 .footer{
-    margin: 50px 170px;
+    margin: 200px 170px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .footer-top{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
-.footer-top-left p{
+.footer-top-right p{
     font-size: 20px;
     font-weight: 600;
     max-width: 400px;
@@ -18,8 +19,10 @@
 
 .footer-top-right{
     display: flex;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
+    position: absolute;
+    right: -20px;
+    bottom: -5px;
 }
 
 .footer-email-input{
@@ -51,20 +54,22 @@
 
 .footer-bottom{
     display: flex;
-    justify-content: space-between;
     font-size: 19px;
 }
 
-.footer-bottom-left{
+/* .footer-bottom-left{
     display: flex;
     gap: 30px;
-}
+} */
 
 .footer-bottom-right{
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+    position: absolute;
+    right: 200px;
 }
+
 
 .footer-email-input:hover{
     border:2px solid white;
