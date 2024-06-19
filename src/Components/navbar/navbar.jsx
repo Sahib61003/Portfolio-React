@@ -9,6 +9,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <img src={logo} alt=""/>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <ul className='nav-menu'>
                 <li> <p onClick={()=>setMenu("home")}> Home </p> {menu==='Home'? <img src={underline} alt=''/>:<></> } </li>
                 <li> <a href='#about'> <p onClick={()=>setMenu("about me")}> About </p> </a> {menu==='About me'? <img src={underline} alt=''/>:<></> } </li>

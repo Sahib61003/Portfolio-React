@@ -66,3 +66,16 @@
     transition: 0.6s;
 }
 
+@media screen and (max-width: 768px)  {
+    .mywork-container{
+        display: inline-block;
+        width: 40%;
+        margin-left: -72vw;
+        margin-right: 15vw;
+    }
+    .mywork-container img{
+        margin-bottom: 4vh;
+        width: 400px;
+        height: 250px;
+    }
+}
