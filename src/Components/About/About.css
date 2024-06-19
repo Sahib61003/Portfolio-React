@@ -105,3 +105,27 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width:768px) {
+    .about-sections{
+        display: inline-block;
+    }
+
+    .img1{
+        height: 350px;
+    }
+
+    .about-para{
+        font-size: 30px;
+        line-height: 5vh;
+        text-align: center;
+    }
+
+    .about-right{
+        margin-top: 40px;
+    }
+
+    .about-achievments{
+        width: 90vw;
+        display: inline-block;
+    }
+}
