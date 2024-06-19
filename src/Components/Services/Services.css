@@ -80,3 +80,27 @@
     transform: scale(1.07);
     transition: 0.8s;
 }
+
+@media screen and (max-width:768px){
+    .services{
+       display:inline-block;
+       width: 100%;
+       margin-left: 17vw;
+    }
+    .services-title h1{
+        font-size: 50px;
+        margin-left: -4vw;
+    }
+    .services-title img{
+        display:none;
+    }
+    .services-format{
+        flex-basis: calc(50% - 20px);
+    }
+    .services-container{
+        width: 100%;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-top: 5vh;
+    }
+}

@@ -16,7 +16,7 @@ const Services_Data = [
     },
     {
         s_no:"04",
-        s_name:"Frontend Development",
+        s_name:"Frontend Dev",
         s_desc:"I can help you with Website Development, Web Application Development, Web Designing, Web Hosting, Web Deployment and Web Automation. "
     },
     {
