@@ -73,6 +73,7 @@
     border: 2px solid #0a0e21;
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width:768px){
     .hero h1{
         width: 85%;
@@ -95,4 +96,11 @@
         font-size: 20px;
         word-spacing: 2px;
     }
+=======
+@media screen and (max-width: 768px) {
+    .hero{
+        width: 100%;
+        position: relative;
+    }    
+>>>>>>> Stashed changes
 }
