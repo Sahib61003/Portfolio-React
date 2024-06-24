@@ -50,6 +50,7 @@
     }
     
     .navbar{
+        display: none;
         margin: 20px 0px;
     }
     .nav-connect{
@@ -68,6 +69,7 @@
         width:30px;
     }
     .nav-menu {
+        display: none;
         position: fixed;
         flex-direction: column;
         align-items: center;
