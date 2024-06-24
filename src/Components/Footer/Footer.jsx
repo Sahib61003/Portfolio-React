@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="footer-subscribe"> Subscribe </div>
             </div> */}
         </div>
-    <hr/>
+    <hr className='bottom-line'/>
     <div className="footer-bottom">
         <div className="footer-bottom-right">
             <p> © 2024 All rights reserved </p>
