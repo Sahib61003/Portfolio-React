@@ -38,55 +38,58 @@
     color: white;
 }
 
-.nav-mob-close{
+.checkbtn{
     display:none;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        margin: 10px 20px;
+        padding: 10px;
+    }
+
+    .nav-connect {
+        display: none;
+    }
+
     .checkbtn {
         display: block;
-        order: 1;
-        margin-right: 20px;
+        font-size: 25px;
+        cursor: pointer;
     }
-    
-    .navbar{
-        display: none;
-        margin: 20px 0px;
-    }
-    .nav-connect{
-        display:none;
-    }
-    .nav-mob-open{
-        display: block;
-        position: fixed;
-        right: 30px;
-    }
-    .nav-mob-close{
-        display: block;
-        position: relative;
-        top:30x;
-        left: 290px;
-        width:30px;
-    }
+
     .nav-menu {
         display: none;
         position: fixed;
         flex-direction: column;
         align-items: center;
-        top:0;
+        top: 0;
         gap: 30px;
-        background-color: #1f0016 ;
-        width: 350px;
+        background-color: #1f0016;
+        width: 100%;
         height: 100%;
         z-index: 2;
-        transition:  right 0.5s;
-        right: -350px;
+        transition: right 0.5s;
+        right: -100%;
     }
 
-    .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
-        flex-direction: row;
-        gap:20px;
+    .nav-menu.active {
+        right: 0;
+        display: flex;
     }
-} 
+
+    .nav-menu li {
+        font-size: 25px;
+        padding: 15px 0;
+    }
+
+    .nav-mob-close {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
