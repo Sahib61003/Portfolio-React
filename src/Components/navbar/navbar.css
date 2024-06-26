@@ -74,6 +74,7 @@ a.nav-connect {
         display: block;
         font-size: 25px;
         cursor: pointer;
+        margin-right: -35vw;
     }
 
     .nav-menu {
