@@ -33,6 +33,15 @@
     transition: 0.4s;
 }
 
+.nav-menu li img {
+    display: none;
+}
+
+.nav-menu li.active img,
+.nav-menu li:hover img {
+    display: block;
+}
+
 .anchor-link{
     text-decoration: none;
     color: white;

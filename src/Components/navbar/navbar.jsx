@@ -4,12 +4,13 @@ import logo from '../../assets/logo.png';
 import underline from '../../assets/nav_underline.svg';
 
 const Navbar = () => {
-    const [menu, setMenu] = useState("home");
+    const [menu, setMenu] = useState("");
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const handleMobileMenuToggle = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
+
     const closeMobileMenu = (menuItem) => {
         setMenu(menuItem);
         setIsMobileMenuOpen(false);
@@ -22,33 +23,33 @@ const Navbar = () => {
                 <i className="fas fa-bars"></i>
             </div>
             <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-                <li> 
+                <li className={menu === 'home' ? 'active' : ''}>
                     <p onClick={() => closeMobileMenu('home')}> Home </p> 
-                    {menu === 'home' && <img src={underline} alt=''/>} 
+                    <img src={underline} alt=''/> 
                 </li>
-                <li> 
+                <li className={menu === 'about' ? 'active' : ''}>
                     <a href='#about'> 
                         <p onClick={() => closeMobileMenu('about')}> About </p> 
                     </a> 
-                    {menu === 'about' && <img src={underline} alt=''/>} 
+                    <img src={underline} alt=''/> 
                 </li>
-                <li> 
+                <li className={menu === 'services' ? 'active' : ''}>
                     <a href='#services'> 
                         <p onClick={() => closeMobileMenu('services')}> Services </p> 
                     </a> 
-                    {menu === 'services' && <img src={underline} alt=''/>} 
+                    <img src={underline} alt=''/> 
                 </li>
-                <li> 
+                <li className={menu === 'projects' ? 'active' : ''}>
                     <a href='#work'> 
                         <p onClick={() => closeMobileMenu('projects')}> Projects </p>
                     </a> 
-                    {menu === 'projects' && <img src={underline} alt=''/>} 
+                    <img src={underline} alt=''/> 
                 </li>
-                <li> 
+                <li className={menu === 'contact' ? 'active' : ''}>
                     <a href='#contact'> 
                         <p onClick={() => closeMobileMenu('contact')}> Contact </p> 
                     </a> 
-                    {menu === 'contact' && <img src={underline} alt=''/>} 
+                    <img src={underline} alt=''/> 
                 </li>
             </ul>
             <div className='nav-connect'> Connect with Me </div>
