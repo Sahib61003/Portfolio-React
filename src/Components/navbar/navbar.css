@@ -21,6 +21,8 @@
 }
 
 .nav-connect{
+    color: white;
+    text-decoration: none;
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(210deg, #ff1313 0.70%, #ff0095 102.06%);
@@ -28,6 +30,12 @@
     cursor: pointer;
 }
 
+a.nav-connect {
+    text-decoration: none; 
+}
+.nav-connect a {
+    text-decoration: none !important;
+}
 .nav-menu li:hover{
     transform: scale(1.05);
     transition: 0.4s;
