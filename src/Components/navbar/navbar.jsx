@@ -52,7 +52,9 @@ const Navbar = () => {
                     <img src={underline} alt=''/> 
                 </li>
             </ul>
-            <div className='nav-connect'> Connect with Me </div>
+            <a href="#contact" onClick={() => closeMobileMenu('contact')}>
+                <div className='nav-connect'> Connect with Me </div>
+            </a>
         </div>
     );
 };
