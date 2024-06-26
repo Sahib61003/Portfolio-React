@@ -10,7 +10,9 @@ const Hero = () => {
       <h1><span>I am Sahib Preet Singh,</span> an AI developer, based in India. OPEN TO WORK.</h1>
       <p>I am a senior at GGSIPU, pursuing B.Tech in Artificial Intelligence and Machine Learning. I am passionate about AI and I love to automate things around me. I am always curious to learn new things and take on new challenges.</p>
       <div className='hero-action'>
-        <div className='hero-connect'>Connect with me</div>
+        <a href="#contact" onClick={() => closeMobileMenu('contact')}>
+          <div className='nav-connect'> Connect with Me </div>
+        </a>
         <a href={resume} download="Resume.pdf" className='hero-resume'> Download My Resume </a>
       </div>
     </div>
